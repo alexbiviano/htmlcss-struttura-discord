@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: orange;
+    margin: auto;
+    justify-content: center;
+    width: 700px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222;
+}
+.container {
+    width: 80%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.block {
+    display: flex;
+}
+.box{
+
+    border: 1px dashed #fff;
+}
+.blue-bg{
+background-color: navy;
+
+}
+.pink-box{
+background-color: pink; width: 50%; height: 100px;
+
+}
+.blue-box{
+background-color: dodgerblue; width: 60%; height: 100px;
+
+}
+.gray-bg{
+ background-color: gray;
+
+}
+.white-bg{
+background-color: white;
+
+}
+.green-box{
+background-color: green; width: 80%; height: 150px;
+
+}
+.black-bg{
+background-color: black; padding: 20px; 
+
+}
+.multi-box{
+ display: flex;
+ width: 80%;
+ gap: 10px;
+}
+.multi-box .box{
+ width: 20%;
+height: 100px;
+}
+
+.red-box{ 
+ background-color: salmon; }
+
+ .teal-box{ 
+background-color: teal; }
+
+footer{
+    background-color: aqua;
+    margin: auto;
+    width: 700px;
+    justify-content: center;
+    
+}
+
+
+
+
+
